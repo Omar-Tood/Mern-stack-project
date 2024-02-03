@@ -4,4 +4,4 @@ dotenv.config();
 
 export const dbUrl = process.env.DATABASE_URL;
 export const port = process.env.PORT;
-expor
+export const jwt_secret_key = process.env.JWR_SECRET_KEY
